@@ -55,8 +55,9 @@ body::before{
 .topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:74px;gap:18px}
 .brand{display:flex;align-items:center;gap:13px;color:var(--cream)}
 .brand svg{width:42px;height:42px;flex:none}
-.brand .bt{font-family:var(--display);font-weight:700;font-size:25px;letter-spacing:.04em;line-height:1;color:var(--gold-bright)}
-.brand .bs{font-family:var(--sans);font-size:10.5px;letter-spacing:.42em;color:var(--cream-dim);text-transform:uppercase;margin-top:3px}
+.brand>span{display:flex;flex-direction:column;justify-content:center}
+.brand .bt{display:block;font-family:var(--display);font-weight:700;font-size:25px;letter-spacing:.04em;line-height:1;color:var(--gold-bright)}
+.brand .bs{display:block;font-family:var(--sans);font-size:10.5px;letter-spacing:.34em;color:var(--cream-dim);text-transform:uppercase;margin-top:4px}
 
 nav.main{display:flex;gap:6px;align-items:center}
 nav.main a{
