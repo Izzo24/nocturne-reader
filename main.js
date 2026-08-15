@@ -1,4 +1,4 @@
-/* 夜讀誌 NOCTURNE — interactions */
+/* 夜讀誌 NOKTAVIA — interactions */
 (function(){
   // mobile nav toggle
   var t=document.querySelector('.navtoggle'),n=document.querySelector('nav.main');
